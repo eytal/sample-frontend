@@ -1,0 +1,55 @@
+.events{
+    position: fixed;
+    bottom: 0; 
+    height: 40%; 
+    width: 100%; 
+    background-color: whitesmoke;
+    overflow: scroll;
+}
+
+.event-row{
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: ghostwhite;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.event-success{
+    color: white;
+    background-color: green;
+}
+.event-failure{
+    color: white;
+    background-color: crimson;
+}
+.event-received{
+    color: white;
+    background-color: #6A359C;
+}
+.top-right{
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
+span.message-success{
+    color: orange;
+    font-weight: bold;
+}
+
+span.message-failure{
+    color: orange;
+    font-weight: bold;
+}
+
+span.message-received{
+    color: orange;
+    font-weight: bold;
+}
+
+span.float-right{
+    float: right;
+}
+
+.bold{
+    font-weight: bold;
+}
