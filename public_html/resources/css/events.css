@@ -1,55 +1,44 @@
-.events{
-    position: fixed;
-    bottom: 0; 
-    height: 40%; 
-    width: 100%; 
-    background-color: whitesmoke;
-    overflow: scroll;
+html,
+body {
+    height: 100%;
 }
 
-.event-row{
-    border-style: solid; 
-    border-width: 1px; 
-    border-color: ghostwhite;
-    font-size: 18px;
-    margin-bottom: 0px;
+body {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-admin.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
-.event-success{
-    color: white;
-    background-color: green;
+
+.events-window {
+    height: 37em;
+    overflow-y: auto;
 }
-.event-failure{
-    color: white;
-    background-color: crimson;
+
+.half-left {
+    float: left;
+    width: 30%;
+    height: 100%;
 }
-.event-received{
+
+.half-right {
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+.event-received {
     color: white;
     background-color: #6A359C;
 }
-.top-right{
-    position: absolute; 
-    top: 0; 
+
+.top-right {
+    position: absolute;
+    top: 0;
     right: 0;
 }
-span.message-success{
-    color: orange;
-    font-weight: bold;
-}
 
-span.message-failure{
-    color: orange;
-    font-weight: bold;
-}
-
-span.message-received{
-    color: orange;
-    font-weight: bold;
-}
-
-span.float-right{
-    float: right;
-}
-
-.bold{
+.bold {
     font-weight: bold;
 }
